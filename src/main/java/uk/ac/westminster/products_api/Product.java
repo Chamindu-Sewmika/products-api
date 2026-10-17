@@ -18,14 +18,23 @@ public class Product {
         return id;
     }
 
-//    public String getName() {
-//        return name;
-//    }
-
-
-//    Because the name field is private, removing getName() left Spring with no way to access the data, causing it to silently omit the property without throwing an error.
+    public String getName() {
+        return name;
+    }
 
     public double getPrice() {
         return price;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
