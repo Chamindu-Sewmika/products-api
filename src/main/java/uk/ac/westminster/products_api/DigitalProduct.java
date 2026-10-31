@@ -27,6 +27,8 @@ public class DigitalProduct extends Product {
         return "Digital: " + getName()
                 + " | Download: " + downloadUrl;
     }
+
+
 }
 
 
